@@ -2142,7 +2142,7 @@ input, select, textarea {
 			}
 
 			.image.avatar img {
-				border-radius: 100%;
+				/* border-radius: 100%; */
 				width: 100%;
 			}
 
@@ -2592,11 +2592,16 @@ input, select, textarea {
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background-color: #1f1815;
-		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-		background-position: top left,							top left;
-		background-repeat: repeat,								no-repeat;
-		background-size: auto,								150%;
+		/* background-attachment: scroll,								scroll; */
+		background-attachment: scroll;
+		/* background-image: url("images/overlay.png"), url("../../images/bg.jpg"); */
+		background-image: url("../../images/andrew-kliatskyi-bkReHmwf-4g-unsplash.jpg");
+		/* background-position: top left,							top left; */
+		background-position: top left;
+		/* background-repeat: repeat,								no-repeat; */
+		background-repeat: no-repeat;
+		/* background-size: auto,								150%; */
+		background-size: 150%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
@@ -2632,7 +2637,7 @@ input, select, textarea {
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(200, 200, 200, 0.8);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
@@ -2640,7 +2645,8 @@ input, select, textarea {
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: 9.25em;
+			opacity: 0.9;
 		}
 
 /* Footer */
